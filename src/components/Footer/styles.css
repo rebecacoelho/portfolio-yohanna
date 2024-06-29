@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.footer a {
+  text-align: center;
+}
+
+.footer span {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer p  {
+  color: #000;
+  font-size: 1rem;
+  position: relative;
+}
+
+.footer p::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #000;
+  transition: width 0.3s;
+}
+
+.footer p:hover::after {
+  width: 100%;
+}

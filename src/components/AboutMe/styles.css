@@ -1,0 +1,43 @@
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: calc(100% - 1rem - 1rem);
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 80vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.about-me-image {
+  flex: 1 1 300px;
+  max-width: 300px;
+  margin-right: 20px;
+  min-width: 300px;
+}
+
+.about-me-content {
+  flex: 2 1 300px;
+}
+
+.about-me-content h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-me-content p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}

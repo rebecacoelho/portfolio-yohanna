@@ -1,0 +1,30 @@
+.section-container {
+  box-sizing: border-box;
+  width: calc(100% - 4rem - 4rem);
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title {
+  font-size: 5rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: left;
+}
+
+.section-description {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: left;
+}
+
+@media (max-width: 48rem) {
+  .section-title {
+    font-size: 3rem;
+  }
+}

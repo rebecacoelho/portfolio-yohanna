@@ -1,0 +1,23 @@
+.work-container {
+  background: #eee;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  padding: 2rem 0;
+}
+
+.work-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.work-project {
+  box-sizing: border-box;
+  width: calc(100% - 2rem - 2rem);
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
